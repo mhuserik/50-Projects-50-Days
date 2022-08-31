@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rotating nav</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="container">
+        <!-- the section that covers the circle transitions -->
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Article Heading</h1>
+            <small>Author</small>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dolore! Odio non eaque aspernatur eos
+                amet laboriosam provident obcaecati eum dolores maiores nesciunt quas ab, aliquam in recusandae
+                repellendus possimus dolore quos velit. Corrupti velit est quaerat inventore nobis ipsum officiis odio
+                laboriosam excepturi delectus similique necessitatibus pariatur dolores consequuntur ratione dolor,
+                numquam magni placeat id corporis. Rem illo est consectetur voluptatum impedit, minima soluta aliquam
+                officia aperiam placeat provident unde laborum. Obcaecati odio placeat atque pariatur, quos illo, minima
+                eos fugiat corrupti quidem velit quia. Laboriosam, non praesentium nam nihil dolor dicta, magnam
+                similique accusantium assumenda quidem reiciendis molestiae?</p>
+
+            <h3>Secondary Content</h3>
+            <img src="https://images.unsplash.com/photo-1655222168729-c52cc998bb28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                alt="Maketplace">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta distinctio, corrupti veritatis ad,
+                eligendi obcaecati quis quia accusantium esse sunt molestias nam eius consequuntur nemo error voluptates
+                velit voluptate eum totam! Facilis voluptates minima, at, labore reiciendis illum perspiciatis
+                aspernatur voluptatum culpa nemo aliquam qui? Magnam culpa assumenda cupiditate. Earum odit, a laborum
+                ullam deleniti velit nostrum saepe deserunt quod! Eligendi, distinctio ipsam maiores officiis repellat
+                est? Est molestiae hic in eaque maxime, necessitatibus non?</p>
+        </div>
+    </div>
+    <Nav>
+        <ul>
+            <li> <i class="fas fa-home"></i><a href="#">Home</a></li>
+            <li> <i class="fas fa-user-alt"></i><a href="#">About</a></li>
+            <li>
+                <i class="fas fa-envelope"></i> <a href="#">Contact</a>
+            </li>
+
+        </ul>
+    </Nav>
+    <script src="script.js" async defer></script>
+</body>
+
+</html>

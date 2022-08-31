@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Expanding Cards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">Photo Bio</h1>
+    <section>
+        <div class="container">
+            <div class="panel active"
+                style="background-image: url('https://lh3.googleusercontent.com/jmXRHnBQdSvCLWvse-Pozd-7sNGENeA1kGPBY6TzQx6g5mEh_8rY2t1hQW11KcDHvBa3prrLNKKF986FSe1mxwjaKoO7tUgsqhauSnNGHUaU3aRJ2Uv-bPZg-As4xm2_ZWNFxmOUjcLVLjkMZje_2v3RJLMRcN5ogpnbHtEcyLtMXz7j7ofOG4axInap0UYOXnhdSuCyjfByk3Uq6NIGHUV8XoKoasXg8hOr69Xo2vqq12fq-HTVqkPFr4xME27LJ5rbTWl1IL-qS9iSniU3UpuLks__ExwXhQjb6DD8VJMxgtks4459OTQWOXbdehBAFx7vEPx9oL5Pbgbc2It2JrR7pWZNJkVVQf5iwDdaqiQ1sc5z5__m137XfgSnzNl1QPCUk5AHEEB9prcIwGT_Cj_pLxEjO3CdUypcNH6pbRXENKnbHuWQ2nBB17KsiiSREV9abprluG_olnBP0H5fv4cAS8KbsHVQSNlUm4JyueluGYXfZeZJOuyV7HYIcuhxZ4RtSVhQNrh87pGChyCbx29F-PZs-SXjEdUg6RUJ3aoLjjPxuBMWng-LntWpnhapTGR8Gr5EoGLK07tuAAvggnYlU9JEArf8Kc-ZXjVYHK7cbrqyvGQowhng4nAauPk1n3A4_LCZhnUwAOI_wiONq6HdGS5Jom9Y8zDd9PdPiCV3KI-hct58xjn6rjTTPJ8iflt5SLuHt1aMFpTgEvgqDMug=w2204-h1652-no?authuser=0')">
+                <h3>Washingtonian</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url('https://lh3.googleusercontent.com/3kg6TxT5z0l-Itw2ghiaPnRhOplbnBKsJCJhgrf66uBMD4Xm9zwvzJVRpxNLZMjA5eyfY8ADY9Y_-HgnjCHZ3ZWTIZRABwvECtnF3PBCven4XFDKgHi_eHqrgqUY-tVlDZkLtfRQiWi86oC7vela3twDwFduH4P8JaycxqXFRqbQsPdCVxF1crPm0G-gZH9KFjDd4om0WtQN0SRYYnCnFxxuCYzUyiTAcPLGNnShAdrR9XZeKgsTvqR-8eYJEnRc5wPICLA7zE31AoHLDd5wPyQspaJp4vWDAfAgvRd4eciwjiooHfck-aMSPsTYvBfjaEGbgNRnIaoDTI05Y9KimiQxvy30MWbfSJXFbD1Y2wchMJqqAqXqB7RiSzLFs9963gO330wL2_0QKnYJR6yAHJ9pny5rHwO3ucd4Tn_yinKnoQaetj-wemZUHoVmtd9lZTyoQc9Z_BkM4Ktg8P3Jg2dtjGHvmg40CSJjpERSpcERnYWp9IGuKq4xFy17THIzRn_2-5JgEKBDsugg_4NaVJ7fC3VMcxIzlaTzhm4FJMpOctWMANAhL-lIWfTS8-QOh4FQYjMblAZ06lWP6uY6on_t3zkIcRpPBD_p3BU1lc8PA7nSeSiQk9ep1GUbmiFvDkEZovbIwRU24tmo1Oaz7FlgK-V1EqFdMic1amqCa-5H78l9fyC2cVvbXl3mTY-dssk5hO2SQi5sWLBdlNiN8PIR=w2204-h1653-no?authuser=0')">
+                <h3>Avid Hiker</h3>
+            </div>
+            <div class="panel"
+                style="background-image: url('https://lh3.googleusercontent.com/j-UXKFvqUJJu3lGOB6WwozRjmEoDMAgssvFlSFhvIZVuupfK_Qc-jmfnFT2TtdjAhgguPDYfrsLbJD26rT3J7K5k16wi1_tfYlGKS7KAAbjr4EPMFZg2EIwZCStTzJpCV7L4OmhpK-lc0Zre6Flc6IU7zQeEIKEaO2VtQSKYCAW6DD4VwRmjmoy0m-YUyPwPjztsxyCOmSwLd60PNa7YT_gaUyfZ8nGQBRdLsbLK-8kU6LVbU92vOyDpqUIeoEViudeGgMlSZNa8oy85Zp4g8PS0cvwoswQqevDmTHiB0WJuqQ9qW5mpBcJvrTF8l0KW18L7EMsiWwp_F9FSGhcVJshOUhU-ra3pit9iI8-FV78iQSRKbZrIw3p0nCfPpcIPn-Ebb7QZRceLz8KEbQEHbevYhp0E0Dn6dzAPW1KINs8S7D_19oX4qStv53bfHVI-ab9rGSJJ9-8sY40Z6LKSBA1hqMylTsSOTfVc7V-NjLykn1gIjXfkupuR0RxDwNbJgHvBqWfIgppyGTKbestqvukU5jI3A6tRPi3DKX0qRCP59L57j_cpJlVcjFsNrmvO7cXoR9PsQk5oT6rwkKKO56bq_CnrCJi12zinrxKccnLMVdYpaKM74VFtA3O0onlgph5XDhMtqNuzNAgmn3BlisU4Ie1lGbOsx9h1aK4-JXbjeuzspP52OZpLUB5ArFwmTH9uwZRchDpZxur3DTGjdhw=w2204-h1653-no?authuser=0')">
+                <h3>Ski Bum</h3>
+            </div>
+            <div class="panel"
+                style="background-image: url('https://lh3.googleusercontent.com/5GCIsQ5g9fCqGOrZkgkvQTkyeIl4InyXW5mZq9C9d74UMHTl-K_9tdy020cWEGpEE2RHlNGIUFzITnXYRxlEy-_Qvco1M6nqW6twxF5nIl8dgfBnSP2072KjsxVoL1VTLdQ_uaNKf5AOLJak0HZ3ufk_SclXZJHkwDlkF_c-ANBvR8SvJqPU5HHqU3CHyYj4sR08PlCfm05UiZBRGaOBcGEWlT8RQSHpwr4ntwV-oOoHq9caHC0tXeRMzOCKSpB0NVMp8GNmDDYokHKVUA3llurcOFLXz-W3qo3ZggIK96X3XYNbr8eD63_y6M22AAwsYQpDtW-Gu3AvqVF9m_fPEvTNGLIHBEbw0BADz2taLpEyUGjV4qVABbZItKAkW09R986SPiTVZiZSnXztUx0iSCVf-PHgQ_coJWxRzGPcOTG--sErpiTvkp1QgAS7unjVYX5Q7rrqgOgLAAGr4IYHUCEmZRN72i3OdbjTwil5j__hiORV0pvfEzy0ewbj6tDmX79hYoRg8Xbf2aDjPXAyufnCETrf3wmEALD7T6lJFeKBpX-prg1jKWe70y29_emWukZWWQmo7XBy--S8zXDQ_IzQh15k4Bun5LjDme302OsQuXwIUtLOoXxhwR-DJ_jyuFQLpS1stHgPg6EEA392geTdJbydFk789KLf0rUleF2ErubxKXDE76uAIXA9Goo9h-taRtqDRDDh0wzI4MUpspHF=w2204-h1653-no?authuser=0')">
+                <h3>Kite Flyer</h3>
+            </div>
+            <div class="panel"
+                style="background-image: url('https://lh3.googleusercontent.com/UaVgT1ZK50x_6YJYASgpJgPXg1CbZCHmT0G43ag5_k6oiwz9O-8nd89S5kaz8HKg6-ZxDZAwsCxcRkqnp81nORoSJfoVDnfd0LP234UvdQcZmiLpLMrMIFrnlqszaBfYMvHNZs2hhP6Z70qu3UljcEvGULWZDifURUyq6ykSDueGhK-T1KCuVzc9bk-1n7msWShv9HZcKwQypwkXiV7aq0NpMoMM4rwJDYIa1_UqFKqGlYzuGPOuBeRc203YCs0Cs-fxEcm3piHWceXbhNSNaTdprgXev0gjdvjWIC-xlBDGQSd6PfZOqnu58zVveG_zo6FdXWGHJbiBXCtaii0ufeXnTlmYf62BTM3jSljH_siHU3HIZdgUqmMpZtsciIfhv0VN7peRPEo5GmrlVhbSKnbIK7Nx686e9OXDml0Ldkw3MlO2EZwOEn39Bdda868Qg6pzh76wnR-fYWOTy4VX2F5gzKxyjZYWLM05vX_OWaGTwCUwdXBetQASA9b2aWaSm8B177BmLEMJn4m_8BJyATsP0viZixSImtoSl9l2U2wvzPIj1Yhhs25ZY5rfXngz2SWmADMUdZ7987VN0nVM6etLsyoRd4D7Hrlg0T75Us8958ZDzM58KmTC7EwNCh_37pt4XmwJgXXZAcCUrDC88mz4cJn_mB3aJ2FfCd_rk1hd9a4zeJRE3OPxyGPDzd4sez59MGAuTjtkAqi4ukhmKUlc=w2204-h1653-no?authuser=0')">
+                <h3>Water Lover</h3>
+            </div>
+
+        </div>
+    </section>
+    <script src="script.js" async defer></script>
+    <footer class="footer">
+        <div class="footerContainer">
+            <p>Source Code Credit: <a href=" https://www.traversymedia.com/ ">Brad
+                    Traversy | </a>
+                <a href="http://www.udemy.com/course/50-projects-50-days/?referralCode=684EE5F9DE1745B6428B">Course
+                    Link</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
