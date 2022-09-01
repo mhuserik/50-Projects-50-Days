@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Robot', sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*horizontal alignment */
+    justify-content: center; /*Vertical alignment */
+    height: 100vh; /* takes up 100% of the viewport allows it to float in the center*/
+    overflow: hidden; /* Don't want scroll bars showing by default */
+    margin: 0; 
+}
