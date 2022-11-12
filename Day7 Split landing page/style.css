@@ -18,22 +18,20 @@ body {
 
 h1{
     font-size: 4rem;
-    color: white;
+    color: rgba(255, 255, 255, 0.754);
     white-space: nwrap;
     margin-top: 25rem;
-    
+    text-transform: uppercase;
 }
 
 .container{
     display: flex;
-  
-
 }
 
 .btn{
     text-decoration: none;
     color: white;
-    border: rgba(231, 231, 231, 0.702) solid 0.15rem;
+    border: rgba(231, 231, 231, 0.5) solid 0.15rem;
     font-size: 1rem;
     font-weight: bold ;
     padding-left: 4%;
@@ -68,13 +66,11 @@ h1{
     height: 100%;
     overflow: hidden;
     text-align: center;
-    
-
 }
 
 .split.left{
     left: 0;
-    background: url(https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background: url(https://images.unsplash.com/photo-1600607688066-890987f18a86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -90,6 +86,7 @@ h1{
 
 .leftboxshadow {
     box-shadow: inset 0 0 0 1000px rgba(134, 214, 245, 0.75);
+    transition: none;
 }
 
 
@@ -113,7 +110,7 @@ h1{
 
 .rightboxshadow {
     box-shadow: inset 0 0 0 1000px rgba(71, 48, 119, .75);
-
+    transition: none;
 }
 
 
@@ -123,9 +120,19 @@ h1{
     transition: all 1s ease-in-out ;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 1258px) {
+    h1{
+        font-size: 3rem;
+        transition: .1s ease-in-out;
+    }
+    }
+
+
+@media(max-width: 926px) {
 h1{
     font-size: 2rem;
-    transition: .1s ease-in-out;
+    transition: .15s ease-in-out;
 }
 }
+
+
