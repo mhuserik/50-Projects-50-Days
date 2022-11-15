@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Project</title>
+    <title>Form Animation</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -21,7 +21,38 @@
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <h1>Hello World</h1>
+        <div class="container">
+            
+    <h1>Please Login</h1>
+    <form>
+        <div class="form-control">
+            <input type="text" required>
+            <label>
+                <span>E</span>
+                <span>M</span>
+                <span>A</span>
+                <span>I</span>
+                <span>L</span>
+            </label>
+        </div>
+        <div class="form-control">
+            <input type="password" required>
+            <label>
+                <span>P</span>
+                <span>A</span>
+                <span>S</span>
+                <span>S</span>
+                <span>W</span>
+                <span>O</span>
+                <span>R</span>
+                <span>D</span>
+            </label>
+        </div>
+        <button class="btn">Login</button>
+        <p class="text"> Don't have an account? <a href="#">Register</a> </p>
+    </form>
+
+</div>
 
     <script src="script.js" async defer></script>
 </body>
