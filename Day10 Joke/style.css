@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(231, 217, 255);
+    font-family: 'Robot', sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*horizontal alignment */
+    justify-content: center; /*Vertical alignment */
+    height: 100vh; /* takes up 100% of the viewport allows it to float in the center*/
+    overflow: hidden; /* Don't want scroll bars showing by default */
+    margin: 0; 
+    padding: 20px;
+}
+
+.container{
+    background-color: rgb(200, 143, 253);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1), 0 6px 6px rgba(0, 0, 0, .1) ;
+    padding: 100px 50px;
+    text-align: center;
+    max-width: 100%;
+    width: 80%;
+}
+
+h3{
+    margin: 0;
+    opacity: .5;
+    letter-spacing: 1.5px;
+}
+
+.joke{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 10%;
+    max-width: 90%;
+}
+
+.btn{
+    background-color: rgb(231, 217, 255);
+    color: rgb(0, 0, 0);
+    border: 0;
+    border-radius: 10px;
+    padding: 2% 6%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1), 0 6px 6px rgba(0, 0, 0, .1) ;
+    font-size: 1em;
+}
+
+.btn:hover{
+    transform: scale(.98);
+    background-color: rgb(213, 191, 253);
+
+}
+
+.btn:active{
+    transform: scale(.96);
+}
+
+.btn:focus{
+    outline: 0;
+}
+
