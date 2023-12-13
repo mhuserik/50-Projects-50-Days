@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Project</title>
+    <title>collapse</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -21,7 +21,72 @@
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <h1>Hello World</h1>
+    <h1>Frequently Asked Questions</h1>
+    <div class="faq-container">
+        <div class="faq active">
+            <h3 class="faq-title">
+                You lost?
+            </h3>
+
+            <p class="faq-text">
+                You have come to the right place!
+            </p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-title">
+                How do you cancel?
+            </h3>
+
+            <p class="faq-text">
+                Simply call!
+            </p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div><div class="faq">
+            <h3 class="faq-title">
+                How do you change your profile picture?
+            </h3>
+
+            <p class="faq-text">
+                Head to account settings and click on the upload button under your avatar. 
+            </p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div><div class="faq">
+            <h3 class="faq-title">
+                Not sure where to get started?
+            </h3>
+
+            <p class="faq-text">
+                Take a look at our ambassador's work!
+            </p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div><div class="faq">
+            <h3 class="faq-title">
+                Not subscribed yet?
+            </h3>
+
+            <p class="faq-text">
+                Take a look through the course offerings and checkout with promo code TRY25
+            </p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
 
     <script src="script.js" async defer></script>
 </body>

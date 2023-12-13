@@ -1,16 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 
 *{
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Robot', sans-serif ;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /*horizontal alignment */
-    justify-content: center; /*Vertical alignment */
-    height: 100vh; /* takes up 100% of the viewport allows it to float in the center*/
-    overflow: hidden; /* Don't want scroll bars showing by default */
-    margin: 0; 
+    font-family: 'Muli', sans-serif ;
+    background-color: rgb(217, 243, 248);
 }
+
+h1{
+    margin: 50px 0 30px;
+    text-align: center;
+}
+
+.faq-container{
+max-width: 90%;
+margin: 0 auto;
+}
+
+.faq {
+background-color: transparent;
+border: 2px solid rgb(152, 75, 253) ;
+border-radius: 10px;
+margin:3% 10% ;
+padding: 5%;
+position: relative;
+overflow: hidden;
+transition: .7s ease-in-out;
+
+text-align: center;
+}
+
+.faq.active{
+background-color: rgb(202, 195, 254);
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.faq.active::before,.faq.active::after{
+    content: '\f075';
+    font-family: 'Font Awesome 5 free';
+    color: rgb(217, 243, 248);
+    font-size: 7rem;
+    position: absolute;
+    opacity: 0.3;
+    top: 20px;
+    left: 20px;
+    z-index: 0;
+}
+
+.faq.active::before {
+    color: rgb(152, 75, 253);
+    top: -10px;
+    left: -30px;
+    transform: rotatey(180deg);
+}
+
+.faq-text{
+    display: none;
+}
+.faq.active .faq-text{
+    display: block;
+}
+
+
+
+.faq-toggle {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+    outline: 0;
+}
+
+.faq-toggle .fa-times {
+    display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+    display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+    display: none;
+}
+
+

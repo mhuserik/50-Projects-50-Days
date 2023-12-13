@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(38, 46, 48);
+    font-family: 'Muli', sans-serif ;
+    display: flex;
+    
+    align-items: center; /*horizontal alignment */
+    text-align: center;
+    justify-content: center; /*Vertical alignment */
+    height: 100vh; /* takes up 100% of the viewport allows it to float in the center*/
+    overflow: hidden; /* Don't want scroll bars showing by default */
+    margin: 0; 
+}
+
+#insert {
+    width: 80%;
+}
+
+.key {
+ border: 1px solid rgb(111, 97, 122);
+ background-color: rgb(192, 174, 206);
+ box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+display: inline-flex;
+align-items: center;
+font-size: 1.2em;
+padding: 2% 4%;
+flex-direction: column;
+margin: 2%;
+font-weight: bold;
+min-width: 25%;
+position: relative;
+}
+
+.key small {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: grey;
+}
