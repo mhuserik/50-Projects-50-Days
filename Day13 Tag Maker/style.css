@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2EBBF;
+    font-family: 'Robot', sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*horizontal alignment */
+    justify-content: center; /*Vertical alignment */
+    height: 100vh; /* takes up 100% of the viewport allows it to float in the center*/
+    overflow: hidden; /* Don't want scroll bars showing by default */
+    margin: 0; 
+}
+
+h3{
+    color: #573544;
+    margin: 10px 0 20px;
+    justify-content: center;
+}
+
+.container {
+    align-items: center;
+    width: 70vw;
+}
+
+#textarea {
+    border: none;
+    display: block;
+    width: 100%;
+    height: 70%;
+    color: #573544;
+    Margin top: 5%;
+    Margin bottom: 5%;
+    padding top
+}
+
+span {
+   
+}
+/*  Color Theme Swatches in Hex 
+.Vintage-Card-beet-1-hex { color: #573544; }
+.Vintage-Card-beet-2-hex { color: #8CBEB2; }
+.Vintage-Card-beet-3-hex { color: #F2EBBF; }
+.Vintage-Card-beet-4-hex { color: #449991; }
+.Vintage-Card-beet-5-hex { color: #E8476D; } 
+https://color.adobe.com/search?q=Vintage&t=term
+*/
